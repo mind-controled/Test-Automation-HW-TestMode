@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static ru.netology.generator.UserGenerator.*;
 
 class RegistrationTest {
+
     @BeforeEach
     void Setup() {
         open("http://localhost:9999");
