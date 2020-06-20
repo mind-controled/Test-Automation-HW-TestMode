@@ -20,7 +20,7 @@ public class UserGenerator {
             .log(LogDetail.ALL)
             .build();
 
-    public static void makeRequest(Registration registration) {
+    private static void makeRequest(Registration registration) {
         RestAssured.given()
                 .spec(requestSpecification)
                 .body(registration)
